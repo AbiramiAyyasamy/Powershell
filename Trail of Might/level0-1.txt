@@ -1,3 +1,0 @@
-$ ssh century1@century.underthewire.tech
-century1@century.underthewire.tech's password:
-century1
