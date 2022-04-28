@@ -52,7 +52,7 @@ AutoInstallMinorUpdates                      : 0
 AlwaysAutoRebootAtScheduledTime              : 0
 DetectionFrequencyEnabled                    : 1
 DetectionFrequency                         : 4
-<pre>
+</pre>
 
 * Install Chocolatey
 
