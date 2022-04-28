@@ -3,11 +3,11 @@
 * Type `echo $env:computername`. It should show your computer name
 
 `DESKTOP-VJ89FK4`
-
-* PS C:\Users\kasin> echo $env:computername DESKTOP-VJ89FK4
+<pre class="terminal">
+PS C:\Users\kasin> echo $env:computername DESKTOP-VJ89FK4
 
 $env:test = "hello powershell"
-
+</pre>
 * Check the variable you just created the same way you did with the computer name
 
 <pre class ="terminal">
