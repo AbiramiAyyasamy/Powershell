@@ -15,6 +15,8 @@ C:\Users\kasin
 
 `Get-ChildItem`
 
+### output
+
 <p class ="terminal">
 
 Mode                 LastWriteTime         Length Name
