@@ -17,7 +17,7 @@ C:\Users\kasin
 
 ### output
 
-<p class ="terminal">
+<pre class ="terminal">
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
