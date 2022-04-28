@@ -1,3 +1,0 @@
-IPversionTable
-
-10.0.14393.4583
