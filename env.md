@@ -18,7 +18,13 @@ hello powershell
 
 * Check the variable you just created the same way you did with the computer name
 * Check the variable
+<pre class="terminal">
+PS C:\Users\kasin> echo $env:test +="Becode"
 
+hello powershell
+Becode
+</pre>
+### output
 *echo $env:test hello powershell Becode*
 
 * $env:path 
