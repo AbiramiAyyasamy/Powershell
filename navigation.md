@@ -16,6 +16,7 @@ C:\Users\kasin
 `Get-ChildItem`
 
 <p class ="terminal">
+
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
 d-----        13-04-2022     11:21                .ssh
@@ -58,6 +59,7 @@ d-r---        27-01-2022     12:59                Videos
 -a----        14-02-2022     13:13             39 Text-1.css
 -a----        14-02-2022     16:46            271 Text-1.html
 -a----        14-02-2022     13:38            405 Text-2.html
+
 </pre>
 
 * Print the content of your root (C: if you're running windows, / for linux)
