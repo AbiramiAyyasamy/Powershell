@@ -1,0 +1,3 @@
+(Get-ChildItem -File ..\Desktop | Measure-Object).Count
+
+123

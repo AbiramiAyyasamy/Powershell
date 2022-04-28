@@ -1,0 +1,6 @@
+d-----         2/8/2022  10:35 PM                Can You Open Me
+
+PS C:\Users\century4\Documents> get-childitem ..\desktop\ -Recurse
+
+
+5548

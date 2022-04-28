@@ -1,0 +1,5 @@
+
+PS C:\users\century9\desktop>  (Get-Content ..\Desktop\Word_File.txt) -split ' '  | Select-Object -Index 160
+
+
+password: pierid

@@ -1,0 +1,3 @@
+PS C:\Users\century7\Documents> Get-ChildItem ..\ -Recurse -File -Filter readme* | get-content
+
+7points

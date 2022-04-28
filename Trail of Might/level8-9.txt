@@ -1,0 +1,3 @@
+PS C:\Users\century8\Documents> (cat ..\Desktop\Unique.txt | sort | Get-Unique).count
+
+696
