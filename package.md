@@ -18,6 +18,7 @@
 
 
 * Type Get-WindowsUpdate to check for updates
+
 `get-command -module PSWindowsUpdate`
 
 
@@ -33,7 +34,8 @@ Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot
 
 To check the current Windows Update client settings, run the command:
 
-Get-WUSettings
+`Get-WUSettings`
+
 <pre class="terminal">
 ComputerName                                 : WKS5S2N39S2
 WUServer                                     : http://MN-WSUS:8530
@@ -70,6 +72,30 @@ DetectionFrequency                         : 4
 
 * Install a new feature such as hyper-v with Install-WindowsFeature
 
+<<<<<<< HEAD
 `Get-Command -Module hyper-v`
+=======
+1. On the Windows desktop, click the Start button and type any part of the name Windows PowerShell.
+
+2. Right-click Windows PowerShell and select Run as Administrator.
+
+3. To install Hyper-V on a server you're connected to remotely, run the following command and replace <computer_name> with the name of server.
+
+PowerShell
+
+Copy
+Install-WindowsFeature -Name Hyper-V -ComputerName <computer_name> -IncludeManagementTools -Restart
+If you're connected locally to the server, run the command without -ComputerName <computer_name>.
+
+4. After the server restarts, you can see that the Hyper-V role is installed and see what other roles and features are installed by running the following command:
+
+PowerShell
+
+Copy
+Get-WindowsFeature -ComputerName <computer_name>
+
+5. If you're connected locally to the server, run the command without -ComputerName <computer_name>.
+
+>>>>>>> 3de59594360ab8a267dab6ed5c1e3109f67b1423
 
 

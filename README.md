@@ -21,5 +21,4 @@ NOTE: Powershell is actually not a Windows exclusive shell, it can easily be use
 * Package Management
 * Environment Variables
 * Trial of Might
-* To validate this challenge you will need to make a pull request on your training's repository with a file (abi.txt, snake cased) containing a list of the passwords required to advance in the "Trial of Might" exercice. One password per line (if possible).
 

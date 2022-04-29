@@ -1,0 +1,4 @@
+
+PS C:\users\century10\desktop> Get-WMIObject -Class Win32_Service -Filter  "Name='wuauserv'"  | Select-Object *
+
+windowsupdates110
