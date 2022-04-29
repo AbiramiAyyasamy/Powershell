@@ -1,6 +1,6 @@
 ## Powershell Package Management
 
-* It's time to start installing softwares and keep them updated. We will see how to use Chocolatey and how to use Windows Updates.
+It's time to start installing softwares and keep them updated. We will see how to use Chocolatey and how to use Windows Updates.
 
 **Instructions**
 
@@ -12,7 +12,9 @@
 
 - Search for PowerShell, right-click the top result, and select the Run as administrator option.
 
-- Type the following command to download and install all the available updates and reboot the system, and press Enter: Get-WindowsUpdate -AcceptAll -Install -AutoReboot.
+- Type the following command to download and install all the available updates and reboot the system, and press Enter:
+
+`Get-WindowsUpdate -AcceptAll -Install -AutoReboot`
 
 `Get-Package -Name PSWindowsUpdate`
 
@@ -20,14 +22,6 @@
 * Type Get-WindowsUpdate to check for updates
 
 `get-command -module PSWindowsUpdate`
-
-
-
-* Type Install-WindowsUpdate to install updates
-
-Install-WindowsUpdate -MicrosoftUpdate -AcceptAll -AutoReboot
-
-
 
 
 * Manage Packages
@@ -60,8 +54,10 @@ DetectionFrequency                         : 4
 
 In Windows Powershell Use the following command to install Chocolatey
 
+<pre class="terminal">
 Set-ExecutionPolicy Bypass -Scope Process -Force; `
   iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+</pre>
 
 * Install VLC from Chocolatey
 
@@ -90,15 +86,19 @@ The first step is to open windows powershell as administrator. If you have not d
 
 Wait for the program to get installed and if you don’t see any errors within powershell, that means the installation was successful. In order to check if the program got installed correctly, close and reopen powershell as administrator and type the command choco and press enter:
 
-choco
+`choco`
 
 This should output the chocolatey version if the installation was successful. Please feel free to comment below if you run into trouble.
 
 3. Installing software
+
 Now comes the fun part. The first step is to search for the programs you want to install. You can do so at https://chocolatey.org/packages. In chocolatey there are a few options to install software. We can install one software application at a time or we can install multiple applications simultaneously:
 
+<p class="terminal">
 PS C:\Windows\system32> choco install vlc
+
 Chocolatey v1.1.0
+</pre>
 
 * Remove the VLC package using Chocolatey
 
