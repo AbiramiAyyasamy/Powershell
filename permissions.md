@@ -17,7 +17,7 @@ Beginning in Windows PowerShell 3.0, you can use the InputObject parameter of Ge
 
 `----  -----               ------`
 
-`varad NT AUTHORITY\SYSTEM NT AUTHORITY\SYSTEM Allow  FullControl...`
+`kasin NT AUTHORITY\SYSTEM NT AUTHORITY\SYSTEM Allow  FullControl...`
 
 ## 2. Set-Acl
 
