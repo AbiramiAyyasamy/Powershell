@@ -69,3 +69,7 @@ DetectionFrequency                         : 4
 * Get installed windows features with the command Get-WindowsFeature
 
 * Install a new feature such as hyper-v with Install-WindowsFeature
+
+`Get-Command -Module hyper-v`
+
+
